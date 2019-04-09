@@ -4,3 +4,13 @@
 * {
   font-family: 'Muli', sans-serif;
 }
+
+/**Animation on hover, overriding btn style**/
+.btn:hover {
+  transform: scale(1.2);
+  transition: all .5s ease-in-out;
+}
+
+.btn {
+  transition: all .5s ease-in-out;
+}

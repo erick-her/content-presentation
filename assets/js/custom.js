@@ -55,6 +55,34 @@ function load(index){
 }
 
 /**
+* Next function.
+**/
+function next(){
+  card.style["transition"] = "all 1s ease-in-out"; // Animation effect for color change
+
+  // If current image reached end of data array, return to start
+  if(current == data.length - 1){
+    load(0);
+  }else{
+    load(current + 1);
+  }
+}
+
+/**
+* Prev function.
+**/
+function prev(){
+  card.style["transition"] = "all 1s ease-in-out"; // Animation effect for color change
+
+  // If current image reached the start of data array, return to end
+  if(current == 0){
+    load(data.length - 1);
+  }else{
+    load(current - 1);
+  }
+}
+
+/**
 * Initialize function.
 **/
 function init(){
