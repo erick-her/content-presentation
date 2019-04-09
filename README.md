@@ -1,2 +1,6 @@
-# content-presentation
-A simple presentacion type component, slides.
+# Content presentation, slides.
+A simple presentation type component.
+
+## Preview
+
+![preview](preview/content-presentation.gif)
